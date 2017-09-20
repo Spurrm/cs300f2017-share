@@ -25,8 +25,6 @@ for record in SeqIO.parse(myFile_str,'fasta'):
 	print 'Size: ', len(seq)
 	print 'Sequence: ', seq
 
-	if "tgc" in seq and "cgc" in seq:
-		listt.append(record)
 #myFile_str.close()
 
 outFileName_str = myFile_str + "_out.fasta"
